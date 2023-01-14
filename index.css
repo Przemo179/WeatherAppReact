@@ -73,8 +73,7 @@ h1{
 
 .app .description {
   position: relative;
-  left: 50%;
-  transform: rotate(90deg);
+  left: 85%;
 }
 
 .app .bottom  {
