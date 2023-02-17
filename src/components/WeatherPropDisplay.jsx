@@ -31,42 +31,42 @@ import React from 'react';
 //         wind_speed: number,
 //     }
 
-interface Props {
-    data: {
-        // name: string,
-        //     main: {
-        //         feels_like : number,
-        //         grnd_level : number,
-        //         humidity : number,
-        //         pressure : number,
-        //         sea_level : number,
-        //         temp : number,
-        //         temp_max : number,
-        //         temp_min : number
-        //     },
-        //     temp: number,
-        //     weather: {
-        //         description : string,
-        //         icon: string,
-        //         id: number,
-        //         main: string
-        //     },
-        //     description: string,
-        //     feels_like: number,
-        //     humidity : number,
-        //     wind: {
-        //         deg: number,
-        //         gust: number,
-        //         speed: number
-        //     }
-        // wind_speed: number,
-    },
-    location: string,
-    setLocation: (string) => void ,
-    searchLocation: (string) => void
-}
+// interface Props {
+//     data: {
+//         name: string,
+//             main: {
+//                 feels_like : number,
+//                 grnd_level : number,
+//                 humidity : number,
+//                 pressure : number,
+//                 sea_level : number,
+//                 temp : number,
+//                 temp_max : number,
+//                 temp_min : number
+//             },
+//             temp: number,
+//             weather: {
+//                 description : string,
+//                 icon: string,
+//                 id: number,
+//                 main: string
+//             },
+//             description: string,
+//             feels_like: number,
+//             humidity : number,
+//             wind: {
+//                 deg: number,
+//                 gust: number,
+//                 speed: number
+//             }
+//         wind_speed: number,
+//     },
+//     location: string,
+//     setLocation: (string) => void ,
+//     searchLocation: (string) => void
+// }
 
-export const MainWeaterProperties = ({data, location, setLocation, searchLocation}: Props) => {
+export const MainWeaterProperties = ({data, location, setLocation, searchLocation}) => {
     
     return (
         <div className="app">
